@@ -1,0 +1,25 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  background-color: #444444;
+}
+div {
+  height: 600px;
+  width: 1070px;
+  overflow: hidden;
+  border: 6px solid #969696;
+  margin: auto;
+  display: flex;
+  border-radius: 5mm;
+  align-items: center;
+  justify-content: center;
+}
+div img {
+  height: 600px;
+  width: auto;
+  object-fit: cover;
+  background-size: cover;
+}
